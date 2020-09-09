@@ -1,0 +1,169 @@
+body {
+  background-color: #acaeb5; 
+}
+.Mondrian {
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 500px;
+  background-color: black;
+  display: grid;
+  grid-gap:  1vh;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 2fr 0.5fr 2fr 1fr 2fr 1.5fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 2fr 4fr 2fr 4fr 1fr 1fr;
+}
+.white {
+  background-color: #efefef;
+}
+.black {
+  background-color: black;
+}
+.yellow {
+  background-color: #d8a412;
+}
+.red {
+  background-color: #b32323;
+}
+.blue {
+  background-color: #0e2669;
+}  
+
+.one {
+  grid-row: 1 / 3;
+  grid-column: 1 / 2;
+}
+.two {
+  grid-row: 3 / 5;
+  grid-column: 1 / 2;
+}
+.three {
+  grid-row: 5 / 7;
+  grid-column: 1 / 2;
+}
+.four {
+  grid-row: 7 / 8;
+  grid-column: 1 / 4;
+}
+.five {
+  grid-row: 5 / 7;
+  grid-column: 2 / 3;
+}
+.six {
+  grid-row: 3 / 5;
+  grid-column: 2 / 3;
+}
+.seven {
+  grid-row: 2 / 3;
+  grid-column: 2 / 7;
+}
+.eight {
+  grid-row: 1 / 2;
+  grid-column: 2 / 7;
+}
+.nine {
+  grid-row: 3 / 7;
+  grid-column: 3 / 4;
+}
+.ten {
+  grid-row: 3 / 4;
+  grid-column: 4 / 6;
+}
+.eleven {
+  grid-row: 4 / 5;
+  grid-column: 4 / 5;
+}
+.twelve {
+  grid-row: 5 / 8;
+  grid-column: 4 / 5;
+}
+.thirteen {
+  grid-row: 6 / 8;
+  grid-column: 5 / 7;
+}
+.fourteen {
+  grid-row: 5 / 6;
+  grid-column: 5 / 8;
+}
+.fifteen {
+  grid-row: 4 / 5;
+  grid-column: 5 / 7;
+}
+.sixteen {
+  grid-row: 3 / 4;
+  grid-column: 6 / 7;
+}
+.seventeen {
+  grid-row: 1 / 2;
+  grid-column: 7 / 12;
+}
+.eighteen {
+  grid-row: 2 / 3;
+  grid-column: 7 / 9;
+}
+.nineteen {
+  grid-row: 3 / 4;
+  grid-column: 7 / 9;
+}
+.twenty {
+  grid-row: 4 / 5;
+  grid-column: 7 / 9;
+}
+.twenty-one {
+  grid-row: 5 / 6;
+  grid-column: 8 / 10;
+}
+.twenty-two {
+  grid-row: 6 / 8;
+  grid-column: 7 / 10;
+}
+.twenty-three {
+  grid-row: 6 / 8;
+  grid-column: 10 / 14;
+}
+.twenty-four {
+  grid-row: 5 / 6;
+  grid-column: 10 / 11;
+}
+.twenty-five {
+  grid-row: 4 / 5;
+  grid-column: 9 / 11;
+}
+.twenty-six {
+  grid-row: 3 / 4;
+  grid-column: 9 / 11;
+}
+.twenty-seven {
+  grid-row: 2 / 3;
+  grid-column: 9 / 12;
+}
+.twenty-eight {
+  grid-row: 3 / 4;
+  grid-column: 11 / 12;
+}
+.twenty-nine {
+  grid-row: 4 / 5;
+  grid-column: 11 / 12;
+}
+.thirty {
+  grid-row: 5 / 6;
+  grid-column: 11 / 12;
+}
+.thirty-one {
+  grid-row: 5 / 6;
+  grid-column: 12 / 14;
+}
+.thirty-two {
+  grid-row: 4 / 5;
+  grid-column: 12 / 14;
+}
+.thirty-three {
+  grid-row: 1 / 4;
+  grid-column: 12 / 13;
+}
+.thirty-four {
+  grid-row: 1 / 4;
+  grid-column: 13 / 14;
+}
